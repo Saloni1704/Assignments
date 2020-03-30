@@ -1,0 +1,11 @@
+C:\Users\Shivam Dubey\source\repos\FileOperations\FileOperations\bin\Debug\netcoreapp3.0\FileOperations.exe
+C:\Users\Shivam Dubey\source\repos\FileOperations\FileOperations\bin\Debug\netcoreapp3.0\FileOperations.deps.json
+C:\Users\Shivam Dubey\source\repos\FileOperations\FileOperations\bin\Debug\netcoreapp3.0\FileOperations.runtimeconfig.json
+C:\Users\Shivam Dubey\source\repos\FileOperations\FileOperations\bin\Debug\netcoreapp3.0\FileOperations.runtimeconfig.dev.json
+C:\Users\Shivam Dubey\source\repos\FileOperations\FileOperations\bin\Debug\netcoreapp3.0\FileOperations.dll
+C:\Users\Shivam Dubey\source\repos\FileOperations\FileOperations\bin\Debug\netcoreapp3.0\FileOperations.pdb
+C:\Users\Shivam Dubey\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.0\FileOperations.csprojAssemblyReference.cache
+C:\Users\Shivam Dubey\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.0\FileOperations.AssemblyInfoInputs.cache
+C:\Users\Shivam Dubey\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.0\FileOperations.AssemblyInfo.cs
+C:\Users\Shivam Dubey\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.0\FileOperations.dll
+C:\Users\Shivam Dubey\source\repos\FileOperations\FileOperations\obj\Debug\netcoreapp3.0\FileOperations.pdb
