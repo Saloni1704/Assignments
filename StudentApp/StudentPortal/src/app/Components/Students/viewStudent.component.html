@@ -1,0 +1,51 @@
+ <div class="container">
+    
+    <div class="col-sm-6">
+       <div class="card">
+         <div class="card-body" >
+           
+             
+               <h4>Student Details</h4>
+               <div class="row">
+                    <label  class="col-sm-5 col-form-label"><b>Student Name:</b></label>
+                    <div class="col-sm-7">
+                    {{result.StudentName}}
+                    </div>
+               </div>
+               <div class="row">
+                    <label  class="col-sm-5 col-form-label"><b>Email:</b> </label>
+                    <div class="col-sm-7">
+                        {{result.Email}}
+                    </div>
+               </div>
+               <div class="row">
+                    <label  class="col-sm-5 col-form-label"><b>Mobile Number:</b></label>
+                    <div class="col-sm-7">
+                    {{result.MobileNo}}
+                    </div>
+                </div>
+                
+                       
+                <div class="row">
+                    <label  class="col-sm-5 col-form-label"><b>Course Id:</b></label>
+                        <div class="col-sm-7">
+                        {{result.CourseId}}      
+                        </div>
+                </div>
+               
+                <div class="row">
+                <button [routerLink]="['/update',result.StudentId]" class="btn btn-primary ">Update</button>&nbsp;&nbsp;
+                <button  (click)="delete()" class="btn btn-primary ">Delete</button>&nbsp;&nbsp;
+                <button [routerLink]="['/fee',result.StudentId]" class="btn btn-primary ">Add Fee</button>
+            </div>
+              
+             
+         </div>
+       </div>
+    
+    
+    </div>
+   
+</div>
+   <router-outlet></router-outlet> 
+   

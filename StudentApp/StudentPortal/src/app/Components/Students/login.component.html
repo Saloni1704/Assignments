@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row"> 
+    <div class="col-sm-6">
+       <div class="card">
+         <div class="card-body">
+           <h4>Login</h4>
+             <form [formGroup]="signinFormGroup">
+               
+               <div class="row">
+               <div class="col-sm-12">
+                 <div class="form-group">
+                   <label for="exampleInputEmail">Email<span style="color:red">*</span></label>
+                   <input type="email" class="form-control" formControlName='email' required>
+                 </div>
+               </div>
+               </div>
+               <div class="row">
+               <div class="col-sm-12">
+                 <div class="form-group">
+                   <label for="exampleInputPassword">Password<span style="color:red">*</span></label>
+                   <input type="password" class="form-control" formControlName='password' required>
+                 </div>
+               </div>
+               </div>
+               
+               
+     <button  (click)="submit()" class="btn btn-primary btn-lg btn-block">Sign In</button><br>
+              <p>Don't Have an account <a routerLink='/signup'>Sign Up</a></p>
+             </form>
+         </div>
+       </div>
+   </div>
+   </div>
+   </div>
+   <router-outlet></router-outlet>

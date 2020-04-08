@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row"> 
+    <div class="col-sm-6">
+       <div class="card">
+         <div class="card-body">
+           <h4>Add Fees</h4>
+             <form [formGroup]="feeFormGroup">
+               
+               <div class="row">
+               <div class="col-sm-12">
+                 <div class="form-group">
+                   <label for="exampleInputfeeamount">Fee Amount<span style="color:red">*</span></label>
+                   <input type="text" class="form-control" formControlName="feeAmount" required>
+                 </div>
+               </div>
+               </div>
+               
+               
+               
+     <button  (click)="Submit()" class="btn btn-primary btn-lg btn-block">Add Fee</button>
+              
+             </form>
+         </div>
+       </div>
+   </div>
+   </div>
+   </div>
+   <router-outlet></router-outlet>
