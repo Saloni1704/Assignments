@@ -1,0 +1,6 @@
+C:\Users\Shivam Dubey\source\repos\ManagedCodeDemo\bin\Debug\ManagedCodeDemo.dacpac
+C:\Users\Shivam Dubey\source\repos\ManagedCodeDemo\bin\Debug\ManagedCodeDemo.dll
+C:\Users\Shivam Dubey\source\repos\ManagedCodeDemo\bin\Debug\ManagedCodeDemo.pdb
+C:\Users\Shivam Dubey\source\repos\ManagedCodeDemo\obj\Debug\ManagedCodeDemo.sqlprojAssemblyReference.cache
+C:\Users\Shivam Dubey\source\repos\ManagedCodeDemo\obj\Debug\ManagedCodeDemo.dll
+C:\Users\Shivam Dubey\source\repos\ManagedCodeDemo\obj\Debug\ManagedCodeDemo.pdb
