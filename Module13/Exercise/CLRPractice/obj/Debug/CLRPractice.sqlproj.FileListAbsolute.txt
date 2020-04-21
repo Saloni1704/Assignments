@@ -1,0 +1,6 @@
+C:\Users\Shivam Dubey\source\repos\CLRPractice\bin\Debug\CLRPractice.dacpac
+C:\Users\Shivam Dubey\source\repos\CLRPractice\obj\Debug\CLRPractice.dll
+C:\Users\Shivam Dubey\source\repos\CLRPractice\obj\Debug\CLRPractice.pdb
+C:\Users\Shivam Dubey\source\repos\CLRPractice\bin\Debug\CLRPractice.dll
+C:\Users\Shivam Dubey\source\repos\CLRPractice\bin\Debug\CLRPractice.pdb
+C:\Users\Shivam Dubey\source\repos\CLRPractice\obj\Debug\CLRPractice.sqlprojAssemblyReference.cache

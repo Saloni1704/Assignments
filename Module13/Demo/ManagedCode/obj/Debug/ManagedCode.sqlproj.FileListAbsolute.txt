@@ -1,0 +1,5 @@
+C:\Users\Shivam Dubey\source\repos\ManagedCode\bin\Debug\ManagedCode.dacpac
+C:\Users\Shivam Dubey\source\repos\ManagedCode\bin\Debug\ManagedCode.dll
+C:\Users\Shivam Dubey\source\repos\ManagedCode\bin\Debug\ManagedCode.pdb
+C:\Users\Shivam Dubey\source\repos\ManagedCode\obj\Debug\ManagedCode.dll
+C:\Users\Shivam Dubey\source\repos\ManagedCode\obj\Debug\ManagedCode.pdb
