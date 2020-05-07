@@ -1,0 +1,85 @@
+
+<div class="container" style="margin-left: 200px; text-align: center;">   
+    <div class="col-md-10">
+    <div class="card">
+      <div class="card-body">
+            <h4>Customer SignUp</h4>
+        <form [formGroup]="customerUpdateFormGroup" style="margin-top:50px" *ngFor="let i of result" >
+            <div class="form-group row">
+              <label  class="col-sm-5 col-form-label">First Name</label>
+              <div class="col-sm-7">
+                <input type="text" formControlName="fname" value="{{i.FirstName}}" >
+              </div>
+            </div>
+            <div class="form-group row">
+                <label  class="col-sm-5 col-form-label" value="{{i.LastName}}">Last Name</label>
+                <div class="col-sm-7">
+                  <input type="text" formControlName="lname" >
+                </div>
+              </div>
+              <div class="form-group row">
+                <label  class="col-sm-5 col-form-label" value="{{i.Email}}" disabled>Email</label>
+                <div class="col-sm-7" >
+                  <input type="email" formControlName="email" >
+                </div>
+              </div>
+              <div class="form-group row">
+                <label  class="col-sm-5 col-form-label" value="{{i.Password}}" disabled>Password</label>
+                <div class="col-sm-7">
+                  <input type="Password" formControlName="password">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label  class="col-sm-5 col-form-label" value="{{i.MobileNumber}}">Mobile No</label>
+                <div class="col-sm-7">
+                  <input type="text" formControlName="mobileNumber" >
+                </div>
+              </div>
+              <div class="form-group row">
+                <label  class="col-sm-5 col-form-label" value="{{i.Address}}">Address</label>
+                <div class="col-sm-7">
+                  <input type="text" formControlName="address" >
+                </div>
+              </div>
+              <div class="form-group row">
+                <label  class="col-sm-5 col-form-label" value="{{i.Gender}}">Gender</label>
+                <div class="col-sm-7">
+                  <input type="text" formControlName="gender" >
+                </div>
+              </div>
+              <div class="form-group row">
+                <label  class="col-sm-5 col-form-label" disabled>DOB </label>
+                <div class="col-sm-7">
+                  <input type="text" formControlName="dob"  value="{{i.DOB}"}>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                
+                <div >
+                 <button class="btn btn-success" (click)="Update(i.CustomerId)" style="margin-left: 300px;">Register</button>
+                </div>
+              </div>
+              <div class="form-group row">
+                
+                <div >
+                 <button class="btn btn-success" (click)="Delete(i.CustomerId)" style="margin-left: 300px;">Register</button>
+                </div>
+              </div>
+              
+  
+  
+          </form>
+      </div>
+    </div>
+  </div>
+  
+  </div>
+  <router-outlet></router-outlet>
+  
+  
+  
+  
+  
+  
+  

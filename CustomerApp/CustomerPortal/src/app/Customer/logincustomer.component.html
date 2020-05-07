@@ -1,0 +1,43 @@
+
+<div class="container" style="margin-left: 200px; text-align: center;">   
+    <div class="col-md-10">
+    <div class="card">
+      <div class="card-body">
+            <h4>Customer Login</h4>
+        <form [formGroup]="customerLoginFormGroup" style="margin-top:50px">
+            
+              <div class="form-group row">
+                <label  class="col-sm-5 col-form-label">Email</label>
+                <div class="col-sm-7" >
+                  <input type="email" formControlName="email" >
+                </div>
+              </div>
+              <div class="form-group row">
+                <label  class="col-sm-5 col-form-label">Password</label>
+                <div class="col-sm-7">
+                  <input type="Password" formControlName="password">
+                </div>
+              </div>
+              
+
+              <div class="form-group row">
+                
+                <div >
+                 <button class="btn btn-success" (click)="Login()" style="margin-left: 300px;">Register</button>
+                </div>
+              </div>
+          </form>
+      </div>
+    </div>
+  </div>
+ 
+  
+  </div>
+  <router-outlet></router-outlet>
+  
+  
+  
+  
+  
+  
+  

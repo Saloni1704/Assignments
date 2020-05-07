@@ -1,0 +1,32 @@
+    
+    <table class="table table-striped">
+      <thead>
+       <tr>
+          <th scope="col">Product Code</th>
+          <th scope="col">Product Name</th>
+          <th scope="col">Product Price</th>
+          <th scope="col">Product Brand</th>
+          <th scope="col">Product status</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let i of product" >
+       <tr >
+        <td>{{i.ProductCode}}</td>
+          <td>{{i.ProductName}}</td>
+          <td>{{i.ProductPrice}}</td>
+          <td>{{i.Brand}}</td>
+          <td>{{i.ProductStatus}}</td>
+          <td>
+           <button class="btn btn-danger" (click)="Delete(i.ProductId)">Delete</button>
+        </td>         
+        </tr>
+         </tbody> 
+    </table>
+
+    <button class="btn btn-primary" [routerLink]="['/addproduct']">Add new Product</button>
+    <router-outlet></router-outlet>
+    
+
+   
+    
